@@ -1,0 +1,55 @@
+/* goggle font import */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+:root {
+  /* primary */
+  --Soft-Blue: hsl(231, 69%, 60%);
+  --Soft-Red: hsl(0, 94%, 66%);
+
+  /* Neutral */
+  --Grayish-Blue: hsl(229, 8%, 60%);
+  --Very-Dark-Blue: hsl(229, 31%, 21%);
+
+  /*  body font */
+  --normal-font-size: 15px;
+  --small-font-size: 14px;
+
+  /* font famlily */
+  --font-family: "Rubik", serif;
+
+  /* font weights */
+  --normal-font-weight: 400px;
+  --bold-font-weight: 500px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  max-width: 1200px;
+  font-size: var(--normal-font-size);
+}
+
+/* reusable components */
+.container {
+  margin: 0 10vw;
+}
+
+section {
+  margin: 0 5rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
