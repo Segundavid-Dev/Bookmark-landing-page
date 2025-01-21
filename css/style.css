@@ -12,7 +12,7 @@
 
   /*  body font */
   --normal-font-size: 15px;
-  --small-font-size: 14px;
+  --small-font-size: 13px;
 
   /* font famlily */
   --font-family: "Rubik", serif;
@@ -33,12 +33,13 @@
 body {
   font-family: var(--font-family);
   max-width: 1200px;
+  margin: 0 auto;
   font-size: var(--normal-font-size);
 }
 
 /* reusable components */
 .container {
-  margin: 0 10vw;
+  margin: 0 5vw;
 }
 
 section {
@@ -52,4 +53,31 @@ li {
 
 a {
   text-decoration: none;
+}
+
+header {
+  padding: 1.5rem 0;
+}
+
+.nav,
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__menu {
+  gap: 2rem;
+}
+
+.nav__links {
+  color: var(--Very-Dark-Blue);
+  font-size: var(--small-font-size);
+}
+
+.login {
+  color: #fff;
+  background-color: var(--Soft-Red);
+  padding: 10px 30px;
+  font-weight: var(--bold-font-weight);
 }
