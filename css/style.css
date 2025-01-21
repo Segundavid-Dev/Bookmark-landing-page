@@ -73,6 +73,7 @@ header {
 .nav__links {
   color: var(--Very-Dark-Blue);
   font-size: var(--small-font-size);
+  transition: all 0.4s ease-in;
 }
 
 .login {
@@ -80,4 +81,14 @@ header {
   background-color: var(--Soft-Red);
   padding: 10px 30px;
   font-weight: var(--bold-font-weight);
+  border-radius: 5px;
+}
+
+.nav__links:hover {
+  color: var(--Soft-Red);
+}
+
+.login:hover {
+  background: transparent;
+  border: 1px solid var(--Soft-Red);
 }
