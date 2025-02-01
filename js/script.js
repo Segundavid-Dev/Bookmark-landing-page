@@ -51,4 +51,22 @@ activeBar.forEach((tab, index) => {
   });
 });
 
-console.log(featuresTab);
+// accordion feature
+const accordionFlex = document.querySelectorAll(".accordion__flex");
+const accordionDisplay = document.querySelectorAll(".accordion__display");
+const faqAnswer = document.querySelectorAll(".faq__answers");
+const icon = document.querySelectorAll(".icon");
+
+accordionFlex.forEach((ele) => {
+  ele.addEventListener("click", () => {
+    if (ele === accordionFlex[0]) {
+      faqAnswer[0].classList.toggle("open");
+    } else if (ele === accordionFlex[1]) {
+      faqAnswer[1].classList.toggle("open");
+    } else if (ele === accordionFlex[2]) {
+      faqAnswer[2].classList.toggle("open");
+    } else {
+      faqAnswer[3].classList.toggle("open");
+    }
+  });
+});
