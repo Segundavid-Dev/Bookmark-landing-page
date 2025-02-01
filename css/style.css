@@ -451,19 +451,11 @@ section {
   font-size: 13px;
   vertical-align: middle;
   margin-right: 1rem;
-}
-
-svg {
-  fill: white;
-  color: white;
+  font-weight: 600;
 }
 
 .footer__links__icon img {
   width: 20px;
-  margin-right: 3rem;
+  margin-right: 2rem;
   cursor: pointer;
-}
-
-.footer__logo {
-  background: #fff;
 }
