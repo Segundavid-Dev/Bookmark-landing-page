@@ -356,7 +356,7 @@ section {
 
 .accordion__display {
   /* text-align: center; */
-  padding: 1.2rem 0;
+  padding: 1rem 0;
   width: 40%;
   margin: 0 auto;
   line-height: 1.5;
@@ -368,7 +368,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 1rem;
 }
 
 .accordion__flex:hover {
@@ -391,4 +390,80 @@ section {
 .faq__answers.open {
   max-height: 400px;
   transition: max-height 1s ease;
+}
+
+.footer {
+  /* padding-bottom: 1rem; */
+  margin: 0 auto;
+}
+
+.footer__text {
+  background-color: var(--Soft-Blue);
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer__text h2 {
+  padding: 2rem 0;
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+}
+
+.footer .input__field input {
+  padding: 10px 80px 10px 10px;
+  font-family: var(--font-family);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.footer .input__field button {
+  padding: 10px 20px;
+  font-size: var(--small-font-size);
+  background: var(--Soft-Red);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.footer__links__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--Very-Dark-Blue);
+  color: #fff;
+  padding: 1rem 10vw;
+}
+
+.footer__link {
+  color: #fff;
+  font-size: var(--small-font-size);
+}
+
+.footer__links a {
+  font-size: 13px;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+svg {
+  fill: white;
+  color: white;
+}
+
+.footer__links__icon img {
+  width: 20px;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.footer__logo {
+  background: #fff;
 }
